@@ -10,7 +10,7 @@
 td,
 th {
   border: 1px solid #ddd;
-  padding: 8px;
+  padding: 20px;
 }
 
 tr:nth-child(even) {
@@ -19,6 +19,10 @@ tr:nth-child(even) {
 
 tr:hover {
   background-color: #ddd;
+}
+
+td {
+  text-transform: capitalize;
 }
 
 th {
