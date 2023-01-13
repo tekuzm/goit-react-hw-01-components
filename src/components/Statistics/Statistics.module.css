@@ -1,0 +1,38 @@
+.statistics {
+  width: 600px;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  color: #010101;
+  background-color: #ffffff;
+  border: solid 1px #d8e0ea;
+}
+
+.title {
+  text-transform: uppercase;
+  padding-bottom: 50px;
+}
+
+.statList {
+  display: flex;
+  height: 120px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  width: calc(600px / 5);
+  border: 0.5px solid #b0b0b0;
+}
+
+.label {
+}
+
+.percentage {
+}

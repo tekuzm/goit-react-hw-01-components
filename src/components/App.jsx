@@ -1,5 +1,5 @@
 import Profile from './Profile/Profile';
-import DataTable from './Statistics/DataTable';
+import Statistics from './Statistics/Statistics';
 import user from 'db/user.json';
 import data from 'db/data.json';
 
@@ -16,7 +16,7 @@ const App = () => {
         likes={user.stats.likes}
       />
 
-      <DataTable stats={data} />
+      <Statistics title="Upload stats" stats={data} />
     </>
   );
 };

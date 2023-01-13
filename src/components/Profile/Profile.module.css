@@ -1,5 +1,6 @@
 .profile {
-  padding-top: 150px;
+  width: 450px;
+  padding-top: 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -7,6 +8,7 @@
   font-size: 35px;
   color: #010101;
   background-color: #ffffff;
+  border: solid 1px #d8e0ea;
 }
 
 .description {
@@ -24,27 +26,20 @@
 
 .name {
   font-weight: 600;
-  margin: 0;
 }
 
 .tag {
-  margin: 0;
   font-size: 30px;
   color: #b0b0b0;
 }
 
 .location {
-  margin: 0;
   font-size: 30px;
   color: #b0b0b0;
 }
 
 .stats {
-  margin: 0;
-  padding: 0;
-  list-style: none;
   display: flex;
-
   font-size: 30px;
 }
 
@@ -56,7 +51,7 @@
   gap: 12px;
 
   height: 150px;
-  width: 150px;
+  width: calc(450px / 3);
   background-color: #f0f0f0;
   border: 0.5px solid #b0b0b0;
 }
@@ -66,4 +61,5 @@
 }
 
 .quantity {
+  font-weight: bold;
 }
