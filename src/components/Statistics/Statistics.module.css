@@ -1,5 +1,6 @@
 .statistics {
   width: 600px;
+  margin-top: 40px;
   padding-top: 50px;
   display: flex;
   flex-direction: column;
@@ -29,10 +30,4 @@
   gap: 12px;
   width: calc(600px / 5);
   border: 0.5px solid #b0b0b0;
-}
-
-.label {
-}
-
-.percentage {
 }
